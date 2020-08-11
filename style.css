@@ -38,7 +38,7 @@ a {
 #menu {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   background-color: LightSkyBlue;
 }
 
@@ -48,6 +48,7 @@ a {
   font-variant: small-caps;
   font-style: italic;
   color: AliceBlue;
+  margin: 0 2rem;
 }
 
 #menu a {
