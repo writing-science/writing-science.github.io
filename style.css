@@ -40,11 +40,13 @@ h3 {
 
 p, li, h3 {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 1.70rem;
 }
 
 a {
+  color: Fuchsia;
   word-break: break-all;
+  text-decoration: none;
 }
 
 /* special cases */
@@ -77,8 +79,27 @@ a {
   color: AliceBlue;
 }
 
+.table {
+  display: grid;
+  grid-template-columns: 60% 20%;
+}
+
+.table p {
+  border-bottom: 1px solid LightSkyBlue;
+}
+
 @media only screen and (min-width:700px) {
   body {
     margin: 0 20%;
+  }
+
+  #schedule {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 0 10%;
+  }
+
+  #schedule h2 {
+    grid-column: 1 / span 2;
   }
 }
