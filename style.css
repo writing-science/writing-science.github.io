@@ -1,5 +1,63 @@
-/* LightSkyBlue 87CEFA, AliceBlue F0F8FF, Fuchsia FF00FF */
+/* LightSkyBlue 87CEFA, AliceBlue F0F8FF, Fuchsia FF00FF, GhostWhite F8F8FF */
+
+/* typography */
+
+h1, h2, h3, p, li {
+  margin:0;
+  padding:0;
+}
+
+ul, li {
+  margin: 0;
+}
+
+h1 {
+  min-width: 100%;
+  background-color: LightSkyBlue;
+  color: AliceBlue;
+  text-align: center;
+  text-shadow: 1px 1px LightSkyBlue, 2px 2px 1px GhostWhite;
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-style: italic;
+}
 
 a {
   word-break: break-all;
+}
+
+/* special cases */
+
+#contact-info {
+  display: grid;
+  grid-template-columns: 30% 45%;
+  margin: 1rem 12%;
+}
+
+#menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: LightSkyBlue;
+}
+
+#menu p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-style: italic;
+  color: AliceBlue;
+}
+
+#menu a {
+  word-break: normal;
+  text-decoration: none;
+  color: AliceBlue;
+}
+
+@media only screen and (min-width:700px) {
+  body {
+    margin: 0 20%;
+  }
 }
