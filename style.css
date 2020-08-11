@@ -53,8 +53,7 @@ a {
 
 #contact-info {
   display: grid;
-  grid-template-columns: 30% 45%;
-  margin: 1rem 12%;
+  grid-template-columns: 40% 60%;
 }
 
 #menu {
