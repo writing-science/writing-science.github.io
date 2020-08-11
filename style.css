@@ -35,11 +35,12 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
+  font-variant: small-caps;
 }
 
 p, li, h3 {
   font-size: 1.25rem;
+  font-family: Garamond, serif;
   line-height: 1.70rem;
 }
 
@@ -47,6 +48,11 @@ a {
   color: Fuchsia;
   word-break: break-all;
   text-decoration: none;
+}
+
+::selection {
+  background-color: LightSkyBlue;
+  color: GhostWhite;
 }
 
 /* special cases */
@@ -94,11 +100,16 @@ a {
 
   #schedule {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 45% 45%;
     grid-gap: 0 10%;
   }
 
   #schedule h2 {
     grid-column: 1 / span 2;
+  }
+
+  #schedule p {
+    text-indent: -1rem;
+    padding-left: 1rem;
   }
 }
