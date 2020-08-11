@@ -1,1 +1,5 @@
 /* LightSkyBlue 87CEFA, AliceBlue F0F8FF, Fuchsia FF00FF */
+
+a {
+  word-break: break-all;
+}
