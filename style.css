@@ -23,6 +23,26 @@ h1 {
   font-style: italic;
 }
 
+h2 {
+  margin: 1rem 0;
+  min-width: 100%;
+  background-color: LightSkyBlue;
+  color: AliceBlue;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p, li, h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 a {
   word-break: break-all;
 }

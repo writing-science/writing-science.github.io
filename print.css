@@ -1,1 +1,23 @@
+@page {
+  margin:1in;
+}
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#menu {
+  display: none;
+}
+
+#contact-info {
+  display: grid;
+  grid-template-columns: 30% 45%;
+  margin: 1rem 12%;
+}
+
+#contact-info p {
+  margin: 0;
+  padding: 0;
+}
