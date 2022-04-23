@@ -1,3 +1,3 @@
-# Welcome to "Writing about Science"!
+# Website for Writing about Science
 
-![Test Tube](test-tube.png)
+All for now.
